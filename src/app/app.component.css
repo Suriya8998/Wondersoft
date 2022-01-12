@@ -1,0 +1,25 @@
+.navbar-brand{
+    text-emphasis-color:red;
+}
+
+.ccc{
+    width: 950px;
+    height: 400px;
+}
+
+.abc{
+    text-align: center;
+    background-color: chartreuse;
+    margin-left: 205px;
+    margin-right: 234px;
+}
+.container-fluid {
+    padding-right: 106px;
+    padding-left: 132px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: indigo;
+}
+.active{
+    background-color:blue;
+}

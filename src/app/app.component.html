@@ -1,0 +1,60 @@
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#" style="color: yellow;">SHOPING</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a routerLink="home" style="background-color: cornflowerblue;"   >Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" routerLink='service'>Service<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a [routerLink]="['/service','dev']">Home</a></li>
+            <li><a [routerLink]="['/service','test']"> Online Delivery</a></li>
+            <li><a [routerLink]="['/service','deply']"> Offline Deliver</a></li>
+
+          </ul>
+        </li>
+        <li><a routerLink="galary">Galary </a></li>
+        
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+<form>
+    <div class="abc">
+    <h1>ONLINE SHOPING</h1>
+    </div>
+    <div class="ccc" style="background-image: center;">
+   
+      <img src="../assets/img/photo-1519389950473-47ba0277781c.jpg" alt="Girl in a jacket" width="1500" height="500">
+
+   
+     
+        
+      
+      
+    </div>
+</form>
+
+
+
+
+
+
+
+<h1></h1>
+
+<!-- 
+<a routerLink="home">Home</a>/
+<a routerLink="galary">Galary</a>/
+<a routerLink="service">Service</a>/
+<a routerLink="reister">Reister</a>/
+<a routerLink="login">Login</a>/
+ -->
+
+
+<router-outlet></router-outlet>
